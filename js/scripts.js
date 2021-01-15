@@ -3,19 +3,19 @@ $(document).ready(function() {
     event.preventDefault();
     const fromInput = $("input#from").val();
     const nameInput = $("input#name").val();
-    const useInput = $("input#use").val();
+    const use = parseInt($("#use").val());
+
+    if (useInput = 1) {
+      $(".langJ").addClass("highlightLang");
+    } else if (useInput = 2) {
+      $(".langR").addClass("highlightLang");
+    } else if (useInput = 3) {
+      $(".langP").addClass("highlightLang");
+    }
 
     $(".name").text(nameInput);
     $(".from").text(fromInput);
 
     $("#guru-speaks").show();
-
-    if (use === 'Entrepreneurial') {
-      $(".lang2").addClass("highlightLang");
-    } else if (use === 'Industrial') {
-      $(".lang1").addClass("highlightLang");
-    } else if (use === 'Fun') {
-      $(".lang3").addClass("highlightLang");
-    }
   });
 });
