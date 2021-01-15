@@ -1,3 +1,11 @@
 h1 {
   text-align: center;
 }
+
+.btn {
+  display: block;
+}
+
+#guru-speaks {
+  display: none;
+}
