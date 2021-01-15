@@ -1,11 +1,10 @@
 $(document).ready(function() {
-  console.log("Script executing!");
-  $("#formOne").submit(function() {
+  $("#formOne").submit(function(event) {
     event.preventDefault();
-    console.log("Submit form successfully reached.");
-    const nameInput = $("input#name1").val();
+    const name1Input = $("input#name1").val();
+    console.log(name1Input);
 
-    $(".name1").text(nameInput);
+    $(".name1").text(name1Input);
 
     $("#guru-speaks").show();
   });
