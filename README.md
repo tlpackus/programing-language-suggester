@@ -1,8 +1,8 @@
-# _{Programming Language Suggester}_
+# _Programming Language Suggester_
 
-#### _{A site that suggests a programming language to learn}_
+#### _A site that suggests a programming language to learn_
 
-#### By _**{Theron Packus}**_
+#### By _**Theron Packus**_
 
 ## Technologies Used
 
