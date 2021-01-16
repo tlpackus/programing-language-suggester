@@ -3,14 +3,21 @@ $(document).ready(function() {
     event.preventDefault();
     const fromInput = $("input#from").val();
     const nameInput = $("input#name").val();
-    const useInput = parseInt($("input:radio[name=use]:checked").val());
+    const daysInput = parseInt($("input#days").val());
 
-    if (useInput = 2) {
+    if (daysInput >= 20) {
       $(".langR").addClass("highlightLang");
-    } else if (useInput < 2) {
-      $(".langJ").addClass("highlightLang");
-    } else if (useInput > 2) {
+      $(".langP").removeClass("highlightLang");
+      $(".langJ").removeClass("highlightLang");
+    } else if (daysInput >= 10) {
       $(".langP").addClass("highlightLang");
+      $(".langJ").removeClass("highlightLang");
+      $(".langR").removeClass("highlightLang");
+    } else {
+      $(".langJ").addClass("highlightLang");
+      $(".langR").removeClass("highlightLang");
+      $(".langP").removeClass("highlightLang");
+
     }
 
     $(".name").text(nameInput);
