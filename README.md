@@ -14,9 +14,9 @@
 
 ## Description
 
-This site has a few simple questions to go through. Once answered and the process results button is pressed. My sites language placing formula is enabled, I call "The Guru". This reccomends the most useful coding language for you based of the answers you provided. Hope it helps! 
+This site has a few simple questions to go through. Once answered and the process results button is pressed. My sites language placing formula is enabled, I call "The Guru". This recommends the most useful coding language for you based of the answers you provided. Hope it helps! 
 
-_P.S. I wouldn't take the answer too seriously this site was mostly for personal coding practice._
+_P.S. I wouldn't take the answer too serious, this site was for personal coding practice._
 
 ## Setup/Installation Requirements
 
@@ -27,11 +27,12 @@ _P.S. I wouldn't take the answer too seriously this site was mostly for personal
 * _Make sure you're in the the index.html file_
 * _Right click_
 * _Select "Open with Live Server"_
-* _There you can check out my site_ 
+* _There you can check out my site_
+* _Fill out the questions and click "Show Results" to see what the Guru recommends you_ 
 
 ## Known Bugs
 
-Still working out how to highlight the right course.
+None
 
 ## License
 
