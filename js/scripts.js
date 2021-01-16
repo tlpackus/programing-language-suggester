@@ -3,13 +3,13 @@ $(document).ready(function() {
     event.preventDefault();
     const fromInput = $("input#from").val();
     const nameInput = $("input#name").val();
-    const use = parseInt($("#use").val());
+    const useInput = parseInt($("input:radio[name=use]:checked").val());
 
-    if (useInput = 1) {
-      $(".langJ").addClass("highlightLang");
-    } else if (useInput = 2) {
+    if (useInput = 2) {
       $(".langR").addClass("highlightLang");
-    } else if (useInput = 3) {
+    } else if (useInput < 2) {
+      $(".langJ").addClass("highlightLang");
+    } else if (useInput > 2) {
       $(".langP").addClass("highlightLang");
     }
 
